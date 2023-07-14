@@ -8,10 +8,15 @@ import Contacto from "../components/Contacto"
 import Footer from "../components/Footer"
 import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
+import Head from "next/head"
 
 export default function Home() {
   return (
-    <>
+    <>  
+        <Head>
+            <title>Edwin Santos</title>
+            <meta name='description' content="Edwin Santos Desarrollador web, Porfolio" />
+        </Head>
         <Header />
         <Landing />
         <Sobremi />
