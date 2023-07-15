@@ -6,7 +6,7 @@ export default function Proyectos() {
             <h2 className="mb-16 md:mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white text-center md:text-left md:py-5">Proyectos</h2>
             <div className="grid place-content-center md:grid-cols-2 lg:grid-cols-3 gap-3 mb-16 md:mx-0 mx-3">
                 {proyectosData.map(proyecto =>(
-                    <div key={proyecto.id} className="max-w-sm bg-gris mb-3 rounded-lg ">
+                    <div key={proyecto.id} className=" bg-gris mb-3 rounded-lg ">
                         <a target="_blank" href={proyecto.sitioWeb}>
                             <img className="rounded-t-lg" src={`/img/${proyecto.imagen}.jpg`} alt={`imagen de ${proyecto.nombreProyecto}`} />
                         </a>
