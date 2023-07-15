@@ -2,7 +2,7 @@ import { sobremiData } from "../data/sobremiData"
 
 export default function Sobremi() {
     return(
-        <div id="sobremi" className="max-w-screen-xl mx-auto md:w-4/6">
+        <div id="sobremi" className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
             <div className="flex gap-2 justify-center items-center mx-4 md:mx-0 my-10">
                 <div className="w-2.5 h-2.5 rounded-full bg-naranja"></div>
                 <div className="w-2.5 h-2.5 rounded-full bg-naranja"></div>

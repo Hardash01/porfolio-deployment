@@ -40,7 +40,7 @@ export default function Contacto() {
       };
 
     return(
-        <div id='contacto' className="max-w-screen-xl mx-auto md:w-4/6">
+        <div id='contacto' className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
             <h2 className="mb-16 md:mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white text-center md:text-left md:py-5">Contacto</h2>
             <div className="grid md:grid-cols-2 gap-3 content-center items-center mb-16">
                 <div className='mx-3 md:mx-0 mb-10'>

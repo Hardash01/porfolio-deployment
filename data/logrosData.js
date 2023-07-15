@@ -19,6 +19,7 @@ export const logrosData = [
         id: 3,
         titulo: "Certificacion Diseño de Experiencia de Usuario (UX) de Google",
         descripcion: "Desarrollo de la capacidad de  realizar el proceso de diseño de principio a fin: empatizar con las y los usuarios, definir sus dificultades, proponer soluciones de diseño, crear esquemas y prototipos, y probar diseños para obtener comentarios y sugerir mejoras",
+        fecha: "3 de febrero de 2023",
         imagen: "certificado-google",
         sitioWeb: "https://www.coursera.org/account/accomplishments/specialization/certificate/VQAXVP8VHJ25"
     },
@@ -29,5 +30,13 @@ export const logrosData = [
         fecha: "29 de abril de 2023",
         imagen: "certificado-proyectos",
         sitioWeb: "https://www.coursera.org/account/accomplishments/specialization/certificate/UHAYG32B7TW6"
+    },
+    {
+        id: 5,
+        titulo: "Certificacion Learn English: Beginning Grammar",
+        descripcion: "Aprendiendo las características fundamentales de la gramática  del Ingles, incluidas las formas de las palabras, los tiempos verbales y la formación de preguntas y respuestas.",
+        fecha: "16 de enero de 2023",
+        imagen: "certificado-ingles",
+        sitioWeb: "https://www.coursera.org/account/accomplishments/specialization/certificate/7DEF2T4S2EQN"
     }
 ]

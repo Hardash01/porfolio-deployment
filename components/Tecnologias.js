@@ -2,7 +2,7 @@ import { tecnologiasData } from "../data/tecnologiasData"
 
 export default function Tecnologias () {
     return(
-        <div className="max-w-screen-xl mx-auto md:w-4/6">
+        <div className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
             <h2 className="mb-16 md:mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white text-center md:text-left md:py-5">Habilidades</h2>
             <div className="grid place-content-center md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-3 mb-16 md:mx-0 mx-3">
                 {tecnologiasData.map(tecnologia => (

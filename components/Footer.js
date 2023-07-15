@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Footer() {
     return(
         <div className="bg-grisoscuro">
-            <div className="max-w-screen-xl mx-auto md:w-4/6">
+            <div className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
                 <div className="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between mx-3 md:mx-0 py-10">
                     <a href="#" className="">
                         <Image src="/img/logo.svg" width={110} height={35} alt="Logo EdwinSantos" />
