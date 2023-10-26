@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Logros() {
   return (
-    <div id="logros" className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
+    <div id="logros" className=" max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
         <h2 className="mb-16 md:mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white text-center md:text-left md:py-5">Logros</h2>
-        <div className="grid grid-cols-1 gap-3 rounded-lg mb-16 mx-3 md:mx-0">
+        <div className=" grid grid-cols-1 gap-3 rounded-lg mb-16 mx-3 md:mx-0">
             {logrosData.map(logro => (
             <div key={logro.id} className="block md:flex items-center justify-center bg-gris rounded-lg py-3">
                     <div className="md:w-2/6 ml-2 mb-3 md:mb-0 flex justify-center">

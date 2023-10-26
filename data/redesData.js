@@ -19,14 +19,49 @@ export const redesData = [
     },
     {
         id: 4,
-        nombre: "Facebook",
-        imagen: "facebook",
-        sitioWeb: "https://www.facebook.com/EdwinSantosDev/"
-    },
-    {
-        id: 5,
         nombre: "Github",
         imagen: "github",
         sitioWeb: "https://github.com/Hardash01"
     }
+]
+
+export const enlacesData = [
+    {
+        id:1,
+        name: "Sobre mi",
+        link: "#sobremi"
+    },
+    {
+        id:2,
+        name: "Proyectos",
+        link: "#proyectos"
+    },
+    {
+        id:3,
+        name: "Logros",
+        link: "#logros"
+    },
+    {
+        id:4,
+        name: "Contacto",
+        link: "#contacto"
+    }
+]
+
+export const webAbout = [
+    {
+        id: 1,
+        name: "Next Js",
+        imagen: "nextjs"
+    },
+    {
+        id: 2,
+        name: "React JS",
+        imagen: "react"
+    },
+    {
+        id: 3,
+        name: "Tailwind CSS",
+        imagen: "tailwind"
+    },
 ]

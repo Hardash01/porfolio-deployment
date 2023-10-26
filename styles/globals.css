@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: #131313;
+  /* background-color: #1c0531; */
+  /* background-color: #2a383a; */
+  background-image: linear-gradient(to right top, #0a0e0f, #001117, #001220, #001129, #030e2f, #0b0c31, #140931, #1c0531, #1c0531, #1c0531, #1c0531, #1c0531);
 }

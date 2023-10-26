@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import Image from 'next/image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,10 +9,10 @@ export default function Header() {
   };
 
   return (
-    <nav className="bg-grisoscuro relative">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:w-5/6 lg:w-4/6 p-3 md:pl-0">
-        <a href='#inicio' className="flex items-center">
-          <Image src="/img/logo.svg" width={110} height={35} alt="Logo EdwinSantos" />
+    <nav className="sticky top-0 z-20 bg-black backdrop-blur-md bg-opacity-70 rounded-b-3xl border-b border-b-naranja border-opacity-50">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:w-5/6 lg:w-4/6 py-3 md:pl-0 ">
+        <a href='#inicio' className="flex items-center pl-0">
+          <img src="/img/logo.svg" width={110} height={35} alt="Logo EdwinSantos" />
         </a>
         <button
           onClick={toggleMenu}
@@ -31,11 +30,11 @@ export default function Header() {
         </button>
         <div
           className={`absolute top-full left-0 px-1 pb-1 w-full md:w-auto ${
-            isMenuOpen ? 'block' : 'hidden'
-          } transition-all duration-500 ease-in-out bg-grisoscuro md:flex md:items-center md:space-x-8  md:relative md:bg-transparent`}
+            isMenuOpen ? 'block bg-grisoscuro' : 'hidden'
+          } transition-all duration-500 ease-in-out md:flex md:items-center md:space-x-8  md:relative md:bg-transparent`}
           id="navbar-default"
         >
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-naranja700 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+          <ul className="text-sm md:text-sm lg:text-sm 2xl:text-lg flex flex-col p-4 md:p-0 mt-4 border border-naranja700 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <a href='#sobremi' className="block py-2 pl-3 pr-4 text-white rounded transition duration-300 hover:bg-naranja md:p-1">
                 Sobre mi
