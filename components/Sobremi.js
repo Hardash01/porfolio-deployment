@@ -2,11 +2,9 @@ import { sobremiData } from "../data/sobremiData"
 
 export default function Sobremi() {
     return(
-        <div id="sobremi" className="bg-black max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
-            
-
+        <div className="bg-">
+            <div id="sobremi" className=" max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
             <h2 className="mb-8 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-5xl text-white text-center md:text-left md:py-5">{sobremiData.titulo}</h2>
-
             <div className="md:flex mx-4 md:mx-0 mb-16">
                 <div className="md:w-3/5 h-5/6">
                     <div className="md:hidden flex justify-center">
@@ -27,7 +25,7 @@ export default function Sobremi() {
                     </div>
                 </div>
             </div>
-
+        </div>
         </div>
     )
 }

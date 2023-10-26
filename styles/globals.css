@@ -7,5 +7,7 @@
 body {
   /* background-color: #1c0531; */
   /* background-color: #2a383a; */
-  background-image: linear-gradient(to right top, #0a0e0f, #001117, #001220, #001129, #030e2f, #0b0c31, #140931, #1c0531, #1c0531, #1c0531, #1c0531, #1c0531);
+  background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: radial-gradient(49% 81% at 45% 47%, #3e4454 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #09090b 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #3e4454 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #000000FF 1%, #FF000000 99%),linear-gradient(0deg, #09090b 0%, #3e4454 98%);
 }
