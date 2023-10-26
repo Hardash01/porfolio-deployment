@@ -3,7 +3,7 @@ import { redesData, enlacesData, webAbout } from "../data/redesData"
 
 export default function Footer() {
     return(
-        <div className="bg-negrochido backdrop-blur-md bg-opacity-70 rounded-t-3xl border-t border-t-naranja border-opacity-50">
+        <div className="bg-negrochido backdrop-blur-md bg-opacity-80 rounded-t-3xl border-t border-t-naranja border-opacity-50">
             <div className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6">
                 <div className="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between mx-3 md:mx-0 py-10 font-body">
                     <div className="flex flex-col items-center md:items-start md:text-left justify-center mb-5 md:mb-0 text-center md:w-1/3 [text-wrap:balance]">
