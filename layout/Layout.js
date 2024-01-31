@@ -13,7 +13,7 @@ export default function Layout({ children }) {
                 
             <Header />
 
-            <main>
+            <main className="font-text">
                 { children }
             </main>
 

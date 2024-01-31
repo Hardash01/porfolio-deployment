@@ -12,12 +12,14 @@ export default function Home() {
   return (
     <Layout>  
         <Landing />
-        <Sobremi />
-        <Proyectos />
-        <Tecnologias />
-        <Logros />
-        <Contacto />
-        <ToastContainer/>
+        <div className="[background-image:url(/img/bg-web.webp)] bg-center bg-cover">
+          <Sobremi />
+          <Proyectos />
+          <Tecnologias />
+          <Logros />
+          <Contacto />
+          <ToastContainer/>
+        </div>
     </Layout>
     
   )

@@ -43,7 +43,7 @@ export const tecnologiasData = [
     },
     {
         id: 8,
-        nombre: "Tailwind CSS",
+        nombre: "TailwindCSS",
         imagen: "tailwind",
         descripcion: "Framework CSS"
     },
@@ -61,7 +61,7 @@ export const tecnologiasData = [
     },
     {
         id: 11,
-        nombre: "Adobe XD",
+        nombre: "AdobeXD",
         imagen: "adobexd",
         descripcion: "Diseño y prototipado"
     },
