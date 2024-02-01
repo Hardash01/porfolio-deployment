@@ -9,6 +9,7 @@ export default function Layout({ children }) {
             <Head>
                 <title>Edwin Santos | FrontEnd, React, JavaScript, CSS, HTML</title>
                 <meta name='description' content="Desarrollador Web especializado en FrontEnd, Transformando ideas en realidad a traves de codigo limpio y soluciones innovadoras" />
+                <link rel="icon" type="image/svg+xml" href="/img/logoicon.webp" />
             </Head>
                 
             <Header />
