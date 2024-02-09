@@ -8,6 +8,10 @@ export default function Header() {
     setIsMenuOpen(prevIsMenuOpen => !prevIsMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false)
+  }
+
   return (
     <nav className="fixed w-full top-0 z-50 bg-black backdrop-blur-lg bg-opacity-60">
       <div className="max-w-screen-xl px-5 mg:px-0 flex flex-wrap items-center justify-between mx-auto md:w-5/6 lg:w-4/6 py-3 md:pl-0 ">
@@ -37,7 +41,7 @@ export default function Header() {
           <ul className="text-sm md:text-sm lg:text-sm 2xl:text-lg flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
             {enlaces.map(enlace => (
               <li key={enlace.id} className='mt-4 md:mt-0'>
-                <a href={enlace.link} className="block py-2 pl-3 pr-4 text-white rounded transition-colors duration-300 hover:text-textdestacado md:p-1">
+                <a href={enlace.link} onClick={closeMenu} className="block py-2 pl-3 pr-4 text-white rounded transition-colors duration-300 hover:text-textdestacado md:p-1">
                   {enlace.name}
                 </a>
               </li>
