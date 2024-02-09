@@ -11,3 +11,9 @@ body {
   background-color: #07090D;
   /* background-image: linear-gradient(to right bottom, #3e4454, #353946, #2c2e38, #22232b, #19191e, #19191e, #19191e, #19191e, #22232b, #2c2e38, #353946, #3e4454); */
 }
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}

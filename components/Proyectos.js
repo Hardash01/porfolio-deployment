@@ -14,9 +14,9 @@ export default function Proyectos() {
 
     return(
         <div>
-            <div id="proyectos" className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6 py-10">
-                <h2 className="text-4xl font-title font-extrabold tracking-wider leading-none md:text-5xl lg:text-5xl text-white text-center mb-10">Proyectos</h2>
-                <div className="grid place-content-center md:grid-cols-2 lg:grid-cols-2 gap-6 mb-16 md:mx-0 px-3">
+            <div id="proyectos" className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6 pt-10">
+                <h2 className="text-4xl font-title font-extrabold tracking-wider leading-none md:text-5xl lg:text-5xl text-white text-center mt-5 mb-10">Proyectos</h2>
+                <div className="grid place-content-center md:grid-cols-2 lg:grid-cols-2 gap-6 mb-10 md:mx-0 px-3 md:px-0">
                     {proyectosData.map(proyecto =>{
                         const bigProyImg = bigProyImgs[proyecto.id] || proyecto.imagenes[0];
                         return (

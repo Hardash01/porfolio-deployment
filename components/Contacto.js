@@ -42,7 +42,7 @@ export default function Contacto() {
     return(
         <div>
             <div id='contacto' className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6 py-10 px-3 md:px-0">
-                <h2 className="text-4xl font-title font-extrabold tracking-wider leading-none md:text-5xl lg:text-5xl text-white text-center mb-10">Contacto</h2>
+                <h2 className="text-4xl font-title font-extrabold tracking-wider leading-none md:text-5xl lg:text-5xl text-white text-center mt-5 mb-10">Contacto</h2>
                 <div className="grid md:grid-cols-2 gap-6 content-center items-center mb-16">
                     <div className=' rounded-lg bg-black py-5 px-5 bg-black border border-grisclaro border-opacity-20 bg-opacity-30 order-2 md:order-1'>
                         {formError && (

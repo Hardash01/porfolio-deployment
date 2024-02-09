@@ -5,8 +5,8 @@ export default function Sobremi() {
 
     return(
         <div>
-            <div id="sobremi" className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6 px-3 md:px-0 py-10">
-                <h2 className="text-4xl font-title font-extrabold tracking-wider leading-none md:text-5xl lg:text-5xl text-white text-center mb-10">{sobremiData.titulo}</h2>
+            <div id="sobremi" className="max-w-screen-xl mx-auto md:w-5/6 lg:w-4/6 px-3 md:px-0 pt-10">
+                <h2 className="text-4xl font-title font-extrabold tracking-wider leading-none md:text-5xl lg:text-5xl text-white text-center mt-5 mb-10">{sobremiData.titulo}</h2>
                 <div className="md:flex gap-8 items-center justify-between md:mx-0">
                     
                         <div className="md:w-2/5">
@@ -26,7 +26,7 @@ export default function Sobremi() {
                         </div>
                     
                 </div>
-                <ul className=" grid gap-8 grid-cols-1 md:grid-cols-3 mt-10">
+                <ul className=" grid gap-8 grid-cols-1 md:grid-cols-3 my-10">
                     {habilidadesData.map(habilidades => (
                         <li key={habilidades.id} className="relative h-full rounded-xl bg-black border border-grisclaro border-opacity-20 py-5 px-5 bg-opacity-10 [text-wrap:pretty] text-center flex flex-col items-center">
                             <div className='absolute top-0 flex w-full justify-center'>
