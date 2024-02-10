@@ -21,6 +21,14 @@ export default function Layout({ children }) {
                 <meta name="og:description" content="Desarrollador Web especializado en FrontEnd, Transformando ideas en realidad a traves de codigo limpio y soluciones innovadoras" />
                 <meta name="og:image" content="/img/metaimg.webp" />
                 <meta name="og:image:alt" content="Imagen del sitio web de Edwin Santos" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:domain" content="edwinsantos.dev"/>
+                <meta property="twitter:url" content="https://edwinsantos.dev"/>
+                <meta name="twitter:title" content="Edwin Santos | FrontEnd, React, JavaScript, CSS, HTML"/>
+                <meta name="twitter:description" content="Desarrollador Web especializado en FrontEnd, Transformando ideas en realidad a traves de codigo limpio y soluciones innovadoras" />
+                <meta name="twitter:image" content="https://edwinsantos.dev/img/metaimg.webp"/>
+
             </Head>
                 
             <Header />
