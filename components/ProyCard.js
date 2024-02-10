@@ -22,7 +22,7 @@ export default function ProyCard({ imgURL, changeBigProyImage, bigProyImg, isFir
                 <div className='flex justify-center items-center w-12 h-12 rounded-xl'>
                     <img
                     src={`/img/${imgURL}.webp`}
-                    alt='shoe colletion'
+                    alt={`imagen de ${imgURL}`}
                     className='object-contain'
                     />
                 </div>

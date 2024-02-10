@@ -15,7 +15,6 @@ export default function Logros() {
                         >
                             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-0 group-hover:opacity-90 transition duration-300"></div>
                         </div>
-                        
                         <div className="absolute inset-0 flex flex-col justify-between p-6 pointer-events-none">
                             <div className="flex items-end justify-end opacity-0 group-hover:opacity-100 transition duration-500">
                                 <p className="text-grisclaro2">{logro.fecha}</p>

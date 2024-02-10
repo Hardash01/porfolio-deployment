@@ -10,7 +10,7 @@ export default function Tecnologias () {
                         {tecnologiasData.map(tecnologia => (
                             <ul key={tecnologia.id} className="flex items-center">
                                 <li className=" flex items-center gap-2">
-                                    <img className="w-14 h-14 filter grayscale" src={`/img/${tecnologia.imagen}.svg`} alt={`imagen de logo ${tecnologia.nombre}`}/>
+                                    <img className="w-14 h-14 filter grayscale" src={`/img/${tecnologia.imagen}.svg`} alt={`imagen de ${tecnologia.nombre}`}/>
                                     <div className="font-medium dark:text-white">
                                         <p className="text-2xl font-semibold">{tecnologia.nombre}</p>
                                     </div>
@@ -24,7 +24,7 @@ export default function Tecnologias () {
                         {tecnologiasData.map(tecnologia => (
                             <ul key={tecnologia.id} className="flex items-center scale-x-[-1]">
                                 <li className=" flex items-center gap-2">
-                                    <img className="w-14 h-14 filter grayscale" src={`/img/${tecnologia.imagen}.svg`} alt={`imagen de logo ${tecnologia.nombre}`}/>
+                                    <img className="w-14 h-14 filter grayscale" src={`/img/${tecnologia.imagen}.svg`} alt={`imagen de ${tecnologia.nombre}`}/>
                                     <div className="font-medium dark:text-white">
                                         <p className="text-2xl font-semibold">{tecnologia.nombre}</p>
                                     </div>

@@ -39,7 +39,7 @@ export default function Footer() {
                         <ul className="flex gap-3 md:gap-0 md:flex-col mb-3 space-y-1">
                             {webAbout.map(web => (
                                 <li key={web.id} className="flex items-center gap-1  md:gap-3">
-                                    <img className="w-6 h-6 transition duration-300 rounded-full" title={web.name} src={`/img/${web.imagen}.svg`} alt="Logo de NextJs" />
+                                    <img className="w-6 h-6 transition duration-300 rounded-full" title={web.name} src={`/img/${web.imagen}.svg`} alt={`Logo de ${web.name}`} />
                                     <p className="text-white ">{web.name}</p>
                                 </li>
                             ))}
