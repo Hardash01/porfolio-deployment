@@ -1,5 +1,4 @@
 import { sobremiData, habilidadesData } from "../data/sobremiData"
-import CardSpotlight from "./CardSpotlight"
 
 export default function Sobremi() {
 
@@ -12,7 +11,7 @@ export default function Sobremi() {
                         <img 
                             src="/img/aboutme.webp" 
                             alt="Imagen Edwin Santos Developer"
-                            />
+                        />
                     </div>
                     <div className="md:w-3/5">
                         <p className="mb-4 text-grisclaro2 lg:text-base 2xl:text-lg [text-wrap:pretty]">{sobremiData.descripcion1}</p>

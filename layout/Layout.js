@@ -33,7 +33,7 @@ export default function Layout({ children }) {
                 
             <Header />
 
-            <main className="font-text overflow-auto scroll-smooth">
+            <main className="font-text">
                 { children }
             </main>
 

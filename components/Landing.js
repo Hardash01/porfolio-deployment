@@ -10,7 +10,7 @@ export default function Landing() {
                     <div className="lg:w-1/2 lg:order-last grid place-items-end">
                         <div >
                             <img 
-                                className="w-auto h-auto  md:w-auto md:h-auto lg:w-[410px] lg:h-auto 2xl:w-[500px] object-cover object-center lg:pt-5"
+                                className=""
                                 src="/img/edwinsantos.webp" 
                                 alt="Imagen de Edwin Santos Developer" />
                         </div>
