@@ -4,8 +4,8 @@ import Link from "next/link"
 
 export default function Landing() {
     return(
-        <section className="[background-image:url(/img/hero.webp)] bg-center bg-cover h-[915px] lg:h-[700px] flex items-center">  
-            <div id="inicio" className="h-[700px] max-w-screen-xl mx-auto md:w-4/6 2xl:w-4/6 md:flex">
+        <section className="[background-image:url(/img/hero.webp)] bg-top bg-cover h-[915px] lg:h-[700px] flex items-center">  
+            <div id="inicio" className=" max-w-screen-xl mx-auto md:w-4/6 2xl:w-4/6 md:flex">
                 <div className="flex flex-col lg:flex-row items-center justify-center px-3 md:px-0">
                     <div className="lg:w-1/2 lg:order-last order-first grid place-items-end">
                         <div >
