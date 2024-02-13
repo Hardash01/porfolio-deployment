@@ -11,7 +11,7 @@ export default function Tecnologias () {
                             <ul key={tecnologia.id} className="flex items-center">
                                 <li className=" flex items-center gap-2">
                                     <img className="w-14 h-14 filter grayscale" src={`/img/${tecnologia.imagen}.svg`} alt={`imagen de ${tecnologia.nombre}`}/>
-                                    <div className="font-medium dark:text-white">
+                                    <div className="font-medium text-white">
                                         <p className="text-2xl font-semibold">{tecnologia.nombre}</p>
                                     </div>
                                 </li>
@@ -25,7 +25,7 @@ export default function Tecnologias () {
                             <ul key={tecnologia.id} className="flex items-center scale-x-[-1]">
                                 <li className=" flex items-center gap-2">
                                     <img className="w-14 h-14 filter grayscale" src={`/img/${tecnologia.imagen}.svg`} alt={`imagen de ${tecnologia.nombre}`}/>
-                                    <div className="font-medium dark:text-white">
+                                    <div className="font-medium text-white">
                                         <p className="text-2xl font-semibold">{tecnologia.nombre}</p>
                                     </div>
                                 </li>
