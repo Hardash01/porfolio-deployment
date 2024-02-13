@@ -17,7 +17,7 @@ export const habilidadesData = [
         id:2,
         name: "FrontEnd Developer",
         icon: "frontend",
-        description: "Creacion de interfaces de usuarios innovadoras con buenas practicas, diseños responsives y optimizaciones del contenido"
+        description: "Creación de interfaces de usuarios innovadoras con buenas prácticas, diseños responsives y optimizaciones del contenido"
     },
     {
         id:3,
